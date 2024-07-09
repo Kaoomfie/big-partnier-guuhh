@@ -1890,64 +1890,54 @@
       }
     },
     "Items": {
-      "Normal": [
-        {
-          "Dust Set": {
-            "GCP Cost": 1000,
-            "Items": [
-              "Lifepowder",
-              "Detox Powder",
-              "Paralysis Powder",
-              "Awakening Powder",
-              "Terrain Powder"
-            ]
-          }
+      "Normal": {
+        "Dust Set": {
+          "GCP Cost": 1000,
+          "Items": [
+            "Lifepowder",
+            "Detox Powder",
+            "Paralysis Powder",
+            "Awakening Powder",
+            "Terrain Powder"
+          ]
         },
-        {
-          "Flute Set": {
-            "GCP Cost": 1400,
-            "Items": [
-              "Health Flute",
-              "Antidote Flute",
-              "Demon Flute",
-              "Armour Flute"
-            ]
-          }
+        "Flute Set": {
+          "GCP Cost": 1400,
+          "Items": [
+            "Health Flute",
+            "Antidote Flute",
+            "Demon Flute",
+            "Armour Flute"
+          ]
         },
-        {
-          "Knife Set": {
-            "GCP Cost": 1200,
-            "Items": [
-              "Poison T.Knife",
-              "Sleep T.Knife",
-              "Para T.Knife"
-            ]
-          }
+        "Knife Set": {
+          "GCP Cost": 1200,
+          "Items": [
+            "Poison T.Knife",
+            "Sleep T.Knife",
+            "Para T.Knife"
+          ]
         },
-        {
-          "Trap Set": {
-            "GCP Cost": 1500,
-            "Items": [
-              "Shock Trap",
-              "Pitfall Trap"
-            ]
-          }
+        "Trap Set": {
+          "GCP Cost": 1500,
+          "Items": [
+            "Shock Trap",
+            "Pitfall Trap"
+          ]
         }
-      ],
-      "Urgent": [
-        {
-          "Urgent Quest Set": {
-            "GCP Cost": 1000,
-            "Items": [
-              "Lifepowder",
-              "Detox Powder",
-              "Paralysis Powder",
-              "Awakening Powder",
-              "Revival Ball"
-            ]
-          }
+      },
+      "Urgent": {
+        "Urgent Quest Set": {
+          "GCP Cost": 1000,
+          "Items": [
+            "Lifepowder",
+            "Detox Powder",
+            "Paralysis Powder",
+            "Awakening Powder",
+            "Revival Ball"
+          ]
         }
-      ]
+      }
     },
     "Weapons": {
       "Second": {
