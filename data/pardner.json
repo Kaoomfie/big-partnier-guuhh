@@ -1,0 +1,2010 @@
+{
+    "Skills": {
+      "Health+50": {
+        "GCP Cost": 6000,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health+40"
+        ]
+      },
+      "Health+40": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health+30"
+        ]
+      },
+      "Health+30": {
+        "GCP Cost": 400,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health+20"
+        ]
+      },
+      "Health+20": {
+        "GCP Cost": 100,
+        "Equip Cost": 5,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health+10"
+        ]
+      },
+      "Health+10": {
+        "GCP Cost": 10,
+        "Equip Cost": 5,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": "None"
+      },
+      "Health-10": {
+        "GCP Cost": 100,
+        "Equip Cost": 5,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health+10"
+        ]
+      },
+      "Health-20": {
+        "GCP Cost": 200,
+        "Equip Cost": 10,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health-10"
+        ]
+      },
+      "Health-30": {
+        "GCP Cost": 400,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health-20"
+        ]
+      },
+      "Medical Sage": {
+        "GCP Cost": 30000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Speed Eating",
+          "Wide-Area+2",
+          "Encourage+1"
+        ]
+      },
+      "Recovery Items Up": {
+        "GCP Cost": 4000,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health+20"
+        ]
+      },
+      "Speed Eating": {
+        "GCP Cost": 3000,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health+40",
+          "Recovery Items Up"
+        ]
+      },
+      "Strong Attack+5": {
+        "GCP Cost": 40000,
+        "Equip Cost": 40,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Attack+4"
+        ]
+      },
+      "Strong Attack+4": {
+        "GCP Cost": 25000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Attack+3"
+        ]
+      },
+      "Strong Attack+3": {
+        "GCP Cost": 15000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Attack+2",
+          "Attack Up Absolute"
+        ]
+      },
+      "Strong Attack+2": {
+        "GCP Cost": 10000,
+        "Equip Cost": 15,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Attack+1",
+          "Attack Up Very Large"
+        ]
+      },
+      "Strong Attack+1": {
+        "GCP Cost": 8500,
+        "Equip Cost": 15,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Attack Up Large"
+        ]
+      },
+      "Attack Up Absolute": {
+        "GCP Cost": 6000,
+        "Equip Cost": 20,
+        "Required PR": 300,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Very Large"
+        ]
+      },
+      "Attack Up Very Large": {
+        "GCP Cost": 2500,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Large"
+        ]
+      },
+      "Attack Up Large": {
+        "GCP Cost": 400,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Medium"
+        ]
+      },
+      "Attack Up Medium": {
+        "GCP Cost": 100,
+        "Equip Cost": 10,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Small"
+        ]
+      },
+      "Attack Up Small": {
+        "GCP Cost": 10,
+        "Equip Cost": 5,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": "None"
+      },
+      "Critical Eye +5": {
+        "GCP Cost": 6000,
+        "Equip Cost": 20,
+        "Required PR": 300,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +4"
+        ]
+      },
+      "Critical Eye +4": {
+        "GCP Cost": 2500,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +3"
+        ]
+      },
+      "Critical Eye +3": {
+        "GCP Cost": 400,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +2"
+        ]
+      },
+      "Critical Eye +2": {
+        "GCP Cost": 100,
+        "Equip Cost": 10,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +1"
+        ]
+      },
+      "Critical Eye +1": {
+        "GCP Cost": 10,
+        "Equip Cost": 5,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": "None"
+      },
+      "Exploit Weakness": {
+        "GCP Cost": 40000,
+        "Equip Cost": 40,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Sharpness+1",
+          "Strong Attack+2",
+          "Focus+2"
+        ]
+      },
+      "Status Pursuit": {
+        "GCP Cost": 9500,
+        "Equip Cost": 40,
+        "Required PR": 500,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Absolute",
+          "S. Immunity (Myriad)",
+          "Status Attack Up"
+        ]
+      },
+      "Status Attack Up": {
+        "GCP Cost": 4800,
+        "Equip Cost": 20,
+        "Required PR": 200,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Status Halved",
+          "Elemental Attack Up"
+        ]
+      },
+      "Fire Attack (Large)": {
+        "GCP Cost": 800,
+        "Equip Cost": 15,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Fire Attack (Small)",
+          "Fire Res+20"
+        ]
+      },
+      "Fire Attack (Small)": {
+        "GCP Cost": 300,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Fire Res+10"
+        ]
+      },
+      "Water Attack (Large)": {
+        "GCP Cost": 800,
+        "Equip Cost": 15,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Water Attack (Small)",
+          "Water Res+20"
+        ]
+      },
+      "Water Attack (Small)": {
+        "GCP Cost": 300,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Water Res+10"
+        ]
+      },
+      "Thunder Attack (Large)": {
+        "GCP Cost": 800,
+        "Equip Cost": 15,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Thunder Attack (Small)",
+          "Thunder Res+20"
+        ]
+      },
+      "Thunder Attack (Small)": {
+        "GCP Cost": 300,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Thunder Res+10"
+        ]
+      },
+      "Ice Attack (Large)": {
+        "GCP Cost": 800,
+        "Equip Cost": 15,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Ice Attack (Small)",
+          "Ice Res+20"
+        ]
+      },
+      "Ice Attack (Small)": {
+        "GCP Cost": 300,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Ice Res+10"
+        ]
+      },
+      "Dragon Attack (Large)": {
+        "GCP Cost": 800,
+        "Equip Cost": 15,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Dragon Attack (Small)",
+          "Dragon Res+20"
+        ]
+      },
+      "Dragon Attack (Small)": {
+        "GCP Cost": 300,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Dragon Res+10"
+        ]
+      },
+      "Elemental Attack Up": {
+        "GCP Cost": 4800,
+        "Equip Cost": 15,
+        "Required PR": 200,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Fire Attack (Large)",
+          "Water Attack (Large)",
+          "Thunder Attack (Large)",
+          "Ice Attack (Large)",
+          "Dragon Attack (Large)"
+        ]
+      },
+      "Bomber": {
+        "GCP Cost": 1000,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Gunnery"
+        ]
+      },
+      "Artillery God": {
+        "GCP Cost": 8000,
+        "Equip Cost": 20,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Artillery Expert",
+          "Fire Attack (Large)"
+        ]
+      },
+      "Artillery Expert": {
+        "GCP Cost": 3500,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Gunnery"
+        ]
+      },
+      "Gunnery": {
+        "GCP Cost": 1000,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Medium",
+          "Fire Attack (Small)"
+        ]
+      },
+      "Flute Expert": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +2"
+        ]
+      },
+      "Adrenaline+2": {
+        "GCP Cost": 8500,
+        "Equip Cost": 15,
+        "Required PR": 300,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Adrenaline+1",
+          "Attack Up Absolute",
+          "Health-30"
+        ]
+      },
+      "Adrenaline+1": {
+        "GCP Cost": 1200,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health-20",
+          "Attack Up Very Large"
+        ]
+      },
+      "Focus+2": {
+        "GCP Cost": 4800,
+        "Equip Cost": 15,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Focus+1"
+        ]
+      },
+      "Focus+1": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +4"
+        ]
+      },
+      "Weapon Handling": {
+        "GCP Cost": 3000,
+        "Equip Cost": 10,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +3"
+        ]
+      },
+      "Shiriagari": {
+        "GCP Cost": 25000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Attack Up Absolute",
+          "Focus+2"
+        ]
+      },
+      "Kickboxing King": {
+        "GCP Cost": 5000,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +4",
+          "Taijutsu"
+        ]
+      },
+      "Taijutsu": {
+        "GCP Cost": 3000,
+        "Equip Cost": 10,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +3",
+          "Attack Up Large"
+        ]
+      },
+      "Drug Knowledge": {
+        "GCP Cost": 9500,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Status Attack Up",
+          "Attack Up Absolute"
+        ]
+      },
+      "Encourage+2": {
+        "GCP Cost": 40000,
+        "Equip Cost": 40,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Evasion+2",
+          "Status Immunity",
+          "Encourage+1"
+        ]
+      },
+      "Encourage+1": {
+        "GCP Cost": 30000,
+        "Equip Cost": 35,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Evasion+1",
+          "Flute Expert",
+          "Status Halved"
+        ]
+      },
+      "Charge Attack Up+2": {
+        "GCP Cost": 20000,
+        "Equip Cost": 25,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Charge Attack Up+1",
+          "Focus+2"
+        ]
+      },
+      "Charge Attack Up+1": {
+        "GCP Cost": 10000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Focus+1",
+          "Weapon Handling"
+        ]
+      },
+      "Adaptation+2": {
+        "GCP Cost": 20000,
+        "Equip Cost": 30,
+        "Required PR": 500,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Adaptation+1",
+          "Kickboxing King"
+        ]
+      },
+      "Adaptation+1": {
+        "GCP Cost": 10000,
+        "Equip Cost": 20,
+        "Required PR": 500,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Health+50",
+          "Sharpness+1",
+          "Precision+2"
+        ]
+      },
+      "Issen+3": {
+        "GCP Cost": 60000,
+        "Equip Cost": 40,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Attack+5",
+          "Issen+2"
+        ]
+      },
+      "Issen+2": {
+        "GCP Cost": 40000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Attack+4",
+          "Issen+1"
+        ]
+      },
+      "Issen+1": {
+        "GCP Cost": 20000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Attack+3",
+          "Critical Eye +5"
+        ]
+      },
+      "Crit Conversion": {
+        "GCP Cost": 60000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Issen+3"
+        ]
+      },
+      "Defense+120": {
+        "GCP Cost": 6500,
+        "Equip Cost": 20,
+        "Required PR": 300,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+90"
+        ]
+      },
+      "Defense+90": {
+        "GCP Cost": 3000,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+60"
+        ]
+      },
+      "Defense+60": {
+        "GCP Cost": 400,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Defense+30": {
+        "GCP Cost": 100,
+        "Equip Cost": 10,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+20"
+        ]
+      },
+      "Defense+20": {
+        "GCP Cost": 10,
+        "Equip Cost": 5,
+        "Required PR": "None",
+        "Required GR": "None",
+        "Prerequisite Skills": "None"
+      },
+      "Guard+2": {
+        "GCP Cost": 5000,
+        "Equip Cost": 15,
+        "Required PR": 200,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+90",
+          "Guard+1"
+        ]
+      },
+      "Guard+1": {
+        "GCP Cost": 2000,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Sharpening Artisan": {
+        "GCP Cost": 3000,
+        "Equip Cost": 15,
+        "Required PR": 200,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Speed Sharpening"
+        ]
+      },
+      "Speed Sharpening": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": "None"
+      },
+      "Sharpness+1": {
+        "GCP Cost": 9500,
+        "Equip Cost": 20,
+        "Required PR": 500,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Sharpening Artisan",
+          "Fencing+2",
+          "Adrenaline+2"
+        ]
+      },
+      "Fencing+2": {
+        "GCP Cost": 8000,
+        "Equip Cost": 15,
+        "Required PR": 200,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Fencing+1",
+          "Weapon Handling"
+        ]
+      },
+      "Fencing+1": {
+        "GCP Cost": 3500,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Speed Sharpening"
+        ]
+      },
+      "Honed Blade+3": {
+        "GCP Cost": 20000,
+        "Equip Cost": 35,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Honed Blade+2"
+        ]
+      },
+      "Honed Blade+2": {
+        "GCP Cost": 15000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Honed Blade+1"
+        ]
+      },
+      "Honed Blade+1": {
+        "GCP Cost": 10000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Sharpness+1"
+        ]
+      },
+      "Sword God+2": {
+        "GCP Cost": 30000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Sword God+1",
+          "Focus+2",
+          "True Guts"
+        ]
+      },
+      "Sword God+1": {
+        "GCP Cost": 15000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Sharpness+1",
+          "Weapon Handling",
+          "Focus+1"
+        ]
+      },
+      "Reflect+3": {
+        "GCP Cost": 20000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "All Res Up +20",
+          "Reflect+2"
+        ]
+      },
+      "Reflect+2": {
+        "GCP Cost": 10000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "All Res Up +10",
+          "Reflect+1"
+        ]
+      },
+      "Reflect+1": {
+        "GCP Cost": 5000,
+        "Equip Cost": 10,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Guard+2",
+          "Defense+120"
+        ]
+      },
+      "Normal/Rapid Up": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Normal S All"
+        ]
+      },
+      "Pierce/Pierce Up": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Pierce S+ Lv1"
+        ]
+      },
+      "Pellet/Spread Up": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Medium"
+        ]
+      },
+      "Normal S All": {
+        "GCP Cost": 600,
+        "Equip Cost": 5,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Medium"
+        ]
+      },
+      "Pierce S+ Lv1 & Lv2": {
+        "GCP Cost": 600,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Pierce S+ Lv1"
+        ]
+      },
+      "Pierce S+ Lv1": {
+        "GCP Cost": 200,
+        "Equip Cost": 5,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": "None"
+      },
+      "Load UP": {
+        "GCP Cost": 5000,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Normal S All"
+        ]
+      },
+      "Auto-Reload": {
+        "GCP Cost": 6000,
+        "Equip Cost": 15,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Load UP",
+          "Recoil Reduction+1",
+          "Normal/Rapid Up"
+        ]
+      },
+      "Recoil Reduction+2": {
+        "GCP Cost": 6000,
+        "Equip Cost": 15,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Recoil Reduction+1",
+          "Auto-Reload"
+        ]
+      },
+      "Recoil Reduction+1": {
+        "GCP Cost": 2800,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Pierce/Pierce Up",
+          "Pellet/Spread Up"
+        ]
+      },
+      "Precision+2": {
+        "GCP Cost": 6500,
+        "Equip Cost": 20,
+        "Required PR": 200,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Deviation Down",
+          "Recoil Reduction+2"
+        ]
+      },
+      "Deviation Down": {
+        "GCP Cost": 3500,
+        "Equip Cost": 10,
+        "Required PR": 200,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Auto-Reload"
+        ]
+      },
+      "Steady Hand+1": {
+        "GCP Cost": 20000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Attack+3",
+          "Precision+2"
+        ]
+      },
+      "All Res Up +20": {
+        "GCP Cost": 6500,
+        "Equip Cost": 20,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "All Res Up +10",
+          "Fire Res+20",
+          "Water Res+20",
+          "Ice Res+20",
+          "Thunder Res+20",
+          "Dragon Res+20"
+        ]
+      },
+      "All Res Up +10": {
+        "GCP Cost": 3500,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "All Res Up +5"
+        ]
+      },
+      "All Res Up +5": {
+        "GCP Cost": 500,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Fire Res+10",
+          "Water Res+10",
+          "Ice Res+10",
+          "Thunder Res+10",
+          "Dragon Res+10"
+        ]
+      },
+      "Fire Res+30": {
+        "GCP Cost": 2500,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Fire Res+20"
+        ]
+      },
+      "Fire Res+20": {
+        "GCP Cost": 800,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Fire Res+10"
+        ]
+      },
+      "Fire Res+10": {
+        "GCP Cost": 200,
+        "Equip Cost": 5,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Water Res+30": {
+        "GCP Cost": 2500,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Water Res+20"
+        ]
+      },
+      "Water Res+20": {
+        "GCP Cost": 800,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Water Res+10"
+        ]
+      },
+      "Water Res+10": {
+        "GCP Cost": 200,
+        "Equip Cost": 5,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Ice Res+30": {
+        "GCP Cost": 2500,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Ice Res+20"
+        ]
+      },
+      "Ice Res+20": {
+        "GCP Cost": 800,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Ice Res+10"
+        ]
+      },
+      "Ice Res+10": {
+        "GCP Cost": 200,
+        "Equip Cost": 5,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Thunder Res+30": {
+        "GCP Cost": 2500,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Thunder Res +20"
+        ]
+      },
+      "Thunder Res+20": {
+        "GCP Cost": 800,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Thunder Res +10"
+        ]
+      },
+      "Thunder Res+10": {
+        "GCP Cost": 200,
+        "Equip Cost": 5,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Dragon Res+30": {
+        "GCP Cost": 2500,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Dragon Res+20"
+        ]
+      },
+      "Dragon Res+20": {
+        "GCP Cost": 800,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Dragon Res+10"
+        ]
+      },
+      "Dragon Res+10": {
+        "GCP Cost": 200,
+        "Equip Cost": 5,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Negate Poison": {
+        "GCP Cost": 1000,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Poison Halved"
+        ]
+      },
+      "Poison Halved": {
+        "GCP Cost": 300,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+20"
+        ]
+      },
+      "Negate Para": {
+        "GCP Cost": 1000,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Para Halved"
+        ]
+      },
+      "Para Halved": {
+        "GCP Cost": 300,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+20"
+        ]
+      },
+      "Negate Sleep": {
+        "GCP Cost": 1000,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Sleep Halved"
+        ]
+      },
+      "Sleep Halved": {
+        "GCP Cost": 300,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+20"
+        ]
+      },
+      "S. Immunity (Myriad)": {
+        "GCP Cost": 9500,
+        "Equip Cost": 25,
+        "Required PR": 300,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Status Immunity",
+          "Def Lock",
+          "Crystal Res",
+          "Blast Resistance",
+          "Freeze Res"
+        ]
+      },
+      "Status Immunity": {
+        "GCP Cost": 5000,
+        "Equip Cost": 20,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Negate Poison",
+          "Negate Para",
+          "Negate Sleep",
+          "Status Halved"
+        ]
+      },
+      "Status Halved": {
+        "GCP Cost": 1000,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Poison Halved",
+          "Para Halved",
+          "Sleep Halved"
+        ]
+      },
+      "Negate Stun": {
+        "GCP Cost": 2000,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Stun Halved"
+        ]
+      },
+      "Stun Halved": {
+        "GCP Cost": 1000,
+        "Equip Cost": 10,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Status Halved"
+        ]
+      },
+      "Deoderant": {
+        "GCP Cost": 500,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Snowball Res": {
+        "GCP Cost": 500,
+        "Equip Cost": 10,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Def Lock": {
+        "GCP Cost": 3000,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Negate Poison",
+          "Negate Para",
+          "Negate Sleep"
+        ]
+      },
+      "Blast Resistance": {
+        "GCP Cost": 3000,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Negate Poison",
+          "Negate Para",
+          "Negate Sleep",
+          "Deoderant"
+        ]
+      },
+      "Crystal Res": {
+        "GCP Cost": 3000,
+        "Equip Cost": 15,
+        "Required PR": 30,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Negate Poison",
+          "Negate Para",
+          "Negate Sleep"
+        ]
+      },
+      "Freeze Res": {
+        "GCP Cost": 3000,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Negate Poison",
+          "Negate Para",
+          "Negate Sleep",
+          "Snowball Res"
+        ]
+      },
+      "Unaffected+3": {
+        "GCP Cost": 35000,
+        "Equip Cost": 40,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Super Earplugs",
+          "Violent Wind Breaker",
+          "Quake Res+2",
+          "Unaffected+2"
+        ]
+      },
+      "Unaffected+2": {
+        "GCP Cost": 25000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "High-Grade Earplugs",
+          "Dragon Wind Breaker",
+          "Unaffected+1"
+        ]
+      },
+      "Unaffected+1": {
+        "GCP Cost": 15000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Earplugs",
+          "Wind res Large",
+          "Quake Res+1"
+        ]
+      },
+      "Super Earplugs": {
+        "GCP Cost": 6500,
+        "Equip Cost": 20,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "High-Grade Earplugs"
+        ]
+      },
+      "High-Grade Earplugs": {
+        "GCP Cost": 1000,
+        "Equip Cost": 15,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Earplugs"
+        ]
+      },
+      "Earplugs": {
+        "GCP Cost": 100,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Quake Res+2": {
+        "GCP Cost": 3500,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Quake Res+1"
+        ]
+      },
+      "Quake Res+1": {
+        "GCP Cost": 500,
+        "Equip Cost": 10,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Violent Wind Breaker": {
+        "GCP Cost": 6500,
+        "Equip Cost": 20,
+        "Required PR": 300,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Dragon Wind Breaker"
+        ]
+      },
+      "Dragon Wind Breaker": {
+        "GCP Cost": 2800,
+        "Equip Cost": 15,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Wind Res (Large)"
+        ]
+      },
+      "Wind Res (Large)": {
+        "GCP Cost": 1000,
+        "Equip Cost": 10,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Wind Res (Small)"
+        ]
+      },
+      "Wind Res (Small)": {
+        "GCP Cost": 100,
+        "Equip Cost": 5,
+        "Required PR": 10,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Defense+30"
+        ]
+      },
+      "Evasion+2": {
+        "GCP Cost": 6500,
+        "Equip Cost": 20,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Evasion+1"
+        ]
+      },
+      "Evasion+1": {
+        "GCP Cost": 3000,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Critical Eye +3"
+        ]
+      },
+      "Passive": {
+        "GCP Cost": 3500,
+        "Equip Cost": 5,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Evasion+1",
+          "Quake Res+1"
+        ]
+      },
+      "Goddess' Embrace": {
+        "GCP Cost": 8000,
+        "Equip Cost": 20,
+        "Required PR": 500,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Divine Protection"
+        ]
+      },
+      "Divine Protection": {
+        "GCP Cost": 4000,
+        "Equip Cost": 15,
+        "Required PR": 300,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Evasion+2",
+          "Guts"
+        ]
+      },
+      "True Guts": {
+        "GCP Cost": 8500,
+        "Equip Cost": 20,
+        "Required PR": 500,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Great Guts",
+          "Defense+120"
+        ]
+      },
+      "Great Guts": {
+        "GCP Cost": 4800,
+        "Equip Cost": 15,
+        "Required PR": 300,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Guts",
+          "Health-30"
+        ]
+      },
+      "Guts": {
+        "GCP Cost": 3000,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Passive",
+          "Health+50"
+        ]
+      },
+      "Evade Distance Up": {
+        "GCP Cost": 15000,
+        "Equip Cost": 15,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Movement Speed UP+2",
+          "Goddess' Embrace"
+        ]
+      },
+      "Item Duration UP": {
+        "GCP Cost": 6500,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Recovery Items Up"
+        ]
+      },
+      "Wide-Area+2": {
+        "GCP Cost": 3000,
+        "Equip Cost": 10,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Wide-Area+1"
+        ]
+      },
+      "Wide-Area+1": {
+        "GCP Cost": 1500,
+        "Equip Cost": 5,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Item Duration UP"
+        ]
+      },
+      "Throwing Distance Up": {
+        "GCP Cost": 1200,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Attack Up Large",
+          "Weapon Handling"
+        ]
+      },
+      "Strong Arm+2": {
+        "GCP Cost": 4300,
+        "Equip Cost": 15,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Strong Arm+1"
+        ]
+      },
+      "Strong Arm+1": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Throwing Distance Up"
+        ]
+      },
+      "Trap Master": {
+        "GCP Cost": 6500,
+        "Equip Cost": 15,
+        "Required PR": 150,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Trap Expert"
+        ]
+      },
+      "Trap Expert": {
+        "GCP Cost": 3000,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Weapon Handling",
+          "Item Duration UP"
+        ]
+      },
+      "Iron Arm+2": {
+        "GCP Cost": 15000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Iron Arm+1",
+          "Strong Arm+2",
+          "Item Duration UP"
+        ]
+      },
+      "Iron Arm+1": {
+        "GCP Cost": 10000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Strong Arm+1",
+          "Throwing Knives+1"
+        ]
+      },
+      "Throwing Knives+1": {
+        "GCP Cost": 2500,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Throwing Distance Up"
+        ]
+      },
+      "Taunt": {
+        "GCP Cost": 2000,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Sneak",
+          "Flute Expert"
+        ]
+      },
+      "Sneak": {
+        "GCP Cost": 2000,
+        "Equip Cost": 15,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Evasion+1"
+        ]
+      },
+      "Incitement": {
+        "GCP Cost": 30000,
+        "Equip Cost": 30,
+        "Required PR": 500,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Taunt",
+          "Evasion+2",
+          "Guard+2",
+          "Defense+120",
+          "Passive"
+        ]
+      },
+      "Bond": {
+        "GCP Cost": 2300,
+        "Equip Cost": 5,
+        "Required PR": 50,
+        "Required GR": "None",
+        "Prerequisite Skills": "None"
+      },
+      "Caring+1": {
+        "GCP Cost": 3000,
+        "Equip Cost": 10,
+        "Required PR": 100,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Bond",
+          "Guts",
+          "Negate Stun"
+        ]
+      },
+      "Movement Speed UP+2": {
+        "GCP Cost": 15000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Movement Speed UP+1",
+          "Violent Wind Breaker"
+        ]
+      },
+      "Movement Speed UP+1": {
+        "GCP Cost": 10000,
+        "Equip Cost": 15,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Weapon Handling",
+          "Speed Eating"
+        ]
+      },
+      "Compensation": {
+        "GCP Cost": 30000,
+        "Equip Cost": 50,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Sharpness+1",
+          "Critical Eye +4",
+          "Evasion+2"
+        ]
+      },
+      "Assistance": {
+        "GCP Cost": 9500,
+        "Equip Cost": 30,
+        "Required PR": 500,
+        "Required GR": "None",
+        "Prerequisite Skills": [
+          "Caring+1",
+          "Status Immunity",
+          "Attack Up Absolute",
+          "Defense+120",
+          "Wide-Area+2"
+        ]
+      },
+      "Red Soul": {
+        "GCP Cost": 6500,
+        "Equip Cost": 15,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Great Guts",
+          "Attack Up Large",
+          "Negate Stun"
+        ]
+      },
+      "Blue Soul": {
+        "GCP Cost": 6500,
+        "Equip Cost": 15,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Great Guts",
+          "Defense+60",
+          "Status Halved"
+        ]
+      },
+      "Blazing Majesty+2": {
+        "GCP Cost": 30000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Blazing Majesty+1",
+          "Adrenaline+2",
+          "Fire Attack (Large)",
+          "Artillery God"
+        ]
+      },
+      "Blazing Majesty+1": {
+        "GCP Cost": 15000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Red Soul",
+          "Adrenaline+1",
+          "Fire Attack (Small)",
+          "Bomber",
+          "Artillery Expert"
+        ]
+      },
+      "Drawing Arts+2": {
+        "GCP Cost": 20000,
+        "Equip Cost": 25,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Drawing Arts+1",
+          "Sword God+2",
+          "Movement Speed UP+2"
+        ]
+      },
+      "Drawing Arts+1": {
+        "GCP Cost": 10000,
+        "Equip Cost": 20,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Weapon Handling",
+          "Sword God+1",
+          "Evasion+2"
+        ]
+      },
+      "Skilled": {
+        "GCP Cost": 40000,
+        "Equip Cost": 30,
+        "Required PR": 999,
+        "Required GR": 1,
+        "Prerequisite Skills": [
+          "Movement Speed UP+2",
+          "True Guts",
+          "Speed Eating"
+        ]
+      }
+    },
+    "Auto Skills": {
+      "Skill Slot +1": {
+        "GCP Cost": 60000,
+        "Requirement": "PWR999 with one weapon type"
+      },
+      "Skill Slot +2": {
+        "GCP Cost": 60000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Slot +1"
+        ]
+      },
+      "Skill Cost +1": {
+        "GCP Cost": 20000,
+        "Requirement": "PWR999 with one weapon type"
+      },
+      "Skill Cost +2": {
+        "GCP Cost": 20000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +1"
+        ]
+      },
+      "Skill Cost +3": {
+        "GCP Cost": 20000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +2"
+        ]
+      },
+      "Skill Cost +4": {
+        "GCP Cost": 20000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +3"
+        ]
+      },
+      "Skill Cost +5": {
+        "GCP Cost": 20000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +4"
+        ]
+      },
+      "Skill Cost +6": {
+        "GCP Cost": 20000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +5"
+        ]
+      },
+      "Skill Cost +7": {
+        "GCP Cost": 20000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +6"
+        ]
+      },
+      "Skill Cost +8": {
+        "GCP Cost": 20000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +7"
+        ]
+      },
+      "Skill Cost +9": {
+        "GCP Cost": 40000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +8"
+        ]
+      },
+      "Skill Cost +10": {
+        "GCP Cost": 40000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +9"
+        ]
+      },
+      "Skill Cost +11": {
+        "GCP Cost": 40000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +10"
+        ]
+      },
+      "Skill Cost +12": {
+        "GCP Cost": 40000,
+        "Requirement": [
+          "PWR999 with one weapon type",
+          "Skill Cost +11"
+        ]
+      },
+      "Weapon Attack Limit +1": {
+        "GCP Cost": 10000,
+        "Requirement": "PWR★100"
+      },
+      "Weapon Attack Limit +2": {
+        "GCP Cost": 10000,
+        "Requirement": [
+          "PWR★200",
+          "Weapon Attack Limit +1"
+        ]
+      },
+      "Weapon Attack Limit +3": {
+        "GCP Cost": 10000,
+        "Requirement": [
+          "PWR★300",
+          "Weapon Attack Limit +2"
+        ]
+      },
+      "Weapon Attack Limit +4": {
+        "GCP Cost": 10000,
+        "Requirement": [
+          "PWR★400",
+          "Weapon Attack Limit +3"
+        ]
+      },
+      "Weapon Attack Limit +5": {
+        "GCP Cost": 10000,
+        "Requirement": [
+          "PWR★500",
+          "Weapon Attack Limit +4"
+        ]
+      },
+      "Weapon Attack Limit +6": {
+        "GCP Cost": 10000,
+        "Requirement": [
+          "PWR★600",
+          "Weapon Attack Limit +5"
+        ]
+      },
+      "Weapon Attack Limit +7": {
+        "GCP Cost": 10000,
+        "Requirement": [
+          "PWR★700",
+          "Weapon Attack Limit +6"
+        ]
+      },
+      "Weapon Attack Limit +8": {
+        "GCP Cost": 10000,
+        "Requirement": [
+          "PWR★800",
+          "Weapon Attack Limit +7"
+        ]
+      }
+    },
+    "Items": {
+      "Normal": [
+        {
+          "Dust Set": {
+            "GCP Cost": 1000,
+            "Items": [
+              "Lifepowder",
+              "Detox Powder",
+              "Paralysis Powder",
+              "Awakening Powder",
+              "Terrain Powder"
+            ]
+          }
+        },
+        {
+          "Flute Set": {
+            "GCP Cost": 1400,
+            "Items": [
+              "Health Flute",
+              "Antidote Flute",
+              "Demon Flute",
+              "Armour Flute"
+            ]
+          }
+        },
+        {
+          "Knife Set": {
+            "GCP Cost": 1200,
+            "Items": [
+              "Poison T.Knife",
+              "Sleep T.Knife",
+              "Para T.Knife"
+            ]
+          }
+        },
+        {
+          "Trap Set": {
+            "GCP Cost": 1500,
+            "Items": [
+              "Shock Trap",
+              "Pitfall Trap"
+            ]
+          }
+        }
+      ],
+      "Urgent": [
+        {
+          "Urgent Quest Set": {
+            "GCP Cost": 1000,
+            "Items": [
+              "Lifepowder",
+              "Detox Powder",
+              "Paralysis Powder",
+              "Awakening Powder",
+              "Revival Ball"
+            ]
+          }
+        }
+      ]
+    },
+    "Weapons": {
+      "Second": {
+        "GCP Cost": 100,
+        "Required PR": 10
+      },
+      "Third": {
+        "GCP Cost": 200,
+        "Required PR": 50
+      },
+      "Fourth": {
+        "GCP Cost": 400,
+        "Required PR": 50
+      },
+      "Fifth": {
+        "GCP Cost": 800,
+        "Required PR": 50
+      },
+      "Sixth": {
+        "GCP Cost": 1000,
+        "Required PR": 150
+      },
+      "Seventh": {
+        "GCP Cost": 1200,
+        "Required PR": 150
+      },
+      "Eight": {
+        "GCP Cost": 1400,
+        "Required PR": 150
+      },
+      "Ninth": {
+        "GCP Cost": 1800,
+        "Required PR": 150
+      },
+      "Tenth": {
+        "GCP Cost": 2000,
+        "Required PR": 150
+      },
+      "Eleventh": {
+        "GCP Cost": 3000,
+        "Required PR": 150
+      },
+      "Twelfth": {
+        "GCP Cost": 4500,
+        "Required PR": 150
+      },
+      "Thirteenth": {
+        "GCP Cost": 5000,
+        "Required PR": 150
+      },
+      "Fourteenth": {
+        "GCP Cost": 5000,
+        "Required PR": 150
+      }
+    },
+    "Maxed Partner": {
+      "Skill Slots": 12,
+      "Max Cost": 260
+    }
+  }
