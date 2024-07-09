@@ -3,7 +3,7 @@ let data;
 const bigFckuckingArray = [];
 
 // Fetch JSON data, and run initialRender function once finished
-fetch("./pardner.json")
+fetch("big-partnier-guuhh/pardner.json")
     .then((res) => res.json())
     .then((json) => data = json)
     .then(() => initialRender(data));
