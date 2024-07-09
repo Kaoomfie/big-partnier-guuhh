@@ -30,7 +30,7 @@ body {
 .content {
     padding: 0 18px;
     background-color: var(--coll-content);
-    /* max-height: 0; */
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     margin-bottom: 20px;
