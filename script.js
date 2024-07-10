@@ -34,7 +34,59 @@ function initialRender(data) {
 
 
     // Auto skills
-
+    const autoSkillKeys = [Object.keys(data["Auto Skills"]["Skill Slots"]), Object.keys(data["Auto Skills"]["Skill Cost"]), Object.keys(data["Auto Skills"]["Attack Limit"])]
+    const slotList = document.querySelector(".auto-ssu");
+    const costList = document.querySelector(".auto-cost");
+    const rawCapList = document.querySelector(".auto-raw-cap");
+    const autoSkillTemplate = slotList.children[0];
+    for (let i = 0; i < autoSkillKeys.length; i++) {
+        let autoSkillTarget;
+        let dataTarget;
+        switch (i) {
+            case 0:
+                autoSkillTarget = slotList;
+                dataTarget = "Skill Slots";
+                break;
+            case 1:
+                autoSkillTarget = costList;
+                dataTarget = "Skill Cost";
+                break;
+            case 2:
+                autoSkillTarget = rawCapList;
+                dataTarget = "Attack Limit";
+                break;
+        }
+        autoSkillKeys[i].forEach((element) => {
+            if (i == 0 && autoSkillKeys[i].indexOf(element) == 0) {
+                autoSkillTemplate.children[0].innerHTML = element;
+                autoSkillTemplate.children[1].innerHTML = data["Auto Skills"][dataTarget][element]["GCP Cost"];
+                data["Auto Skills"][dataTarget][element]["Requirement"].forEach((req) => {
+                    const newReq = document.createElement("li");
+                    newReq.innerHTML = req;
+                    autoSkillTemplate.children[2].append(newReq);
+                })
+            } else {
+                const newAutoSkill = autoSkillTemplate.cloneNode(true);
+                newAutoSkill.children[0].innerHTML = element;
+                newAutoSkill.children[1].innerHTML = data["Auto Skills"][dataTarget][element]["GCP Cost"];
+                newAutoSkill.children[2].innerHTML = "";
+                data["Auto Skills"][dataTarget][element]["Requirement"].forEach((req) => {
+                    const newReq = document.createElement("li");
+                    newReq.innerHTML = req;
+                    newAutoSkill.children[2].append(newReq);
+                })
+                autoSkillTarget.append(newAutoSkill);
+            }
+            // Push the GCP costs to the bigFckuckingArray
+            if (i != 2) {
+                bigFckuckingArray.push(data["Auto Skills"][dataTarget][element]["GCP Cost"]);
+            } else {
+                for (let i = 0; i < 14; i++) {
+                    bigFckuckingArray.push(data["Auto Skills"][dataTarget][element]["GCP Cost"]);
+                }
+            }
+        })
+    }
 
 
     // Item sets
@@ -113,12 +165,12 @@ function initialRender(data) {
 
     // Max stats
     // Sets slot and cost values from JSON data
-    document.querySelector(".slots").innerHTML = data["Maxed Partner"]["Skill Slots"];
-    document.querySelector(".cost").innerHTML = data["Maxed Partner"]["Max Cost"];
+    document.querySelector(".max-slots").innerHTML = data["Maxed Partner"]["Skill Slots"];
+    document.querySelector(".max-cost").innerHTML = data["Maxed Partner"]["Max Cost"];
 
 
     // Sum the whole ass huge fucking costs and print the result
     const sum = bigFckuckingArray.reduce((partialSum, a) => partialSum + a, 0);
-    console.log(`Total cost for everything is ${sum} GCP!! 💀`);
+    console.log(`Total cost for everything is ${sum} GCP, not including Item Set costs (but that's a drop in the bucket compared to the rest)!! 💀💀💀`);
 }
 

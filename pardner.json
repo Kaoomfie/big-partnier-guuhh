@@ -1743,150 +1743,162 @@
       }
     },
     "Auto Skills": {
-      "Skill Slot +1": {
-        "GCP Cost": 60000,
-        "Requirement": "PWR999 with one weapon type"
+      "Skill Slots": {
+        "Skill Slot +1": {
+          "GCP Cost": 60000,
+          "Requirement": [ 
+            "PWR999 with one weapon type"
+          ]
+        },
+        "Skill Slot +2": {
+          "GCP Cost": 60000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Slot +1"
+          ]
+        }
       },
-      "Skill Slot +2": {
-        "GCP Cost": 60000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Slot +1"
-        ]
+      "Skill Cost": {
+        "Skill Cost +1": {
+          "GCP Cost": 20000,
+          "Requirement": [
+            "PWR999 with one weapon type"
+          ]
+        },
+        "Skill Cost +2": {
+          "GCP Cost": 20000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +1"
+          ]
+        },
+        "Skill Cost +3": {
+          "GCP Cost": 20000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +2"
+          ]
+        },
+        "Skill Cost +4": {
+          "GCP Cost": 20000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +3"
+          ]
+        },
+        "Skill Cost +5": {
+          "GCP Cost": 20000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +4"
+          ]
+        },
+        "Skill Cost +6": {
+          "GCP Cost": 20000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +5"
+          ]
+        },
+        "Skill Cost +7": {
+          "GCP Cost": 20000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +6"
+          ]
+        },
+        "Skill Cost +8": {
+          "GCP Cost": 20000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +7"
+          ]
+        },
+        "Skill Cost +9": {
+          "GCP Cost": 40000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +8"
+          ]
+        },
+        "Skill Cost +10": {
+          "GCP Cost": 40000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +9"
+          ]
+        },
+        "Skill Cost +11": {
+          "GCP Cost": 40000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +10"
+          ]
+        },
+        "Skill Cost +12": {
+          "GCP Cost": 40000,
+          "Requirement": [
+            "PWR999 with one weapon type",
+            "Skill Cost +11"
+          ]
+        }
       },
-      "Skill Cost +1": {
-        "GCP Cost": 20000,
-        "Requirement": "PWR999 with one weapon type"
-      },
-      "Skill Cost +2": {
-        "GCP Cost": 20000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +1"
-        ]
-      },
-      "Skill Cost +3": {
-        "GCP Cost": 20000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +2"
-        ]
-      },
-      "Skill Cost +4": {
-        "GCP Cost": 20000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +3"
-        ]
-      },
-      "Skill Cost +5": {
-        "GCP Cost": 20000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +4"
-        ]
-      },
-      "Skill Cost +6": {
-        "GCP Cost": 20000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +5"
-        ]
-      },
-      "Skill Cost +7": {
-        "GCP Cost": 20000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +6"
-        ]
-      },
-      "Skill Cost +8": {
-        "GCP Cost": 20000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +7"
-        ]
-      },
-      "Skill Cost +9": {
-        "GCP Cost": 40000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +8"
-        ]
-      },
-      "Skill Cost +10": {
-        "GCP Cost": 40000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +9"
-        ]
-      },
-      "Skill Cost +11": {
-        "GCP Cost": 40000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +10"
-        ]
-      },
-      "Skill Cost +12": {
-        "GCP Cost": 40000,
-        "Requirement": [
-          "PWR999 with one weapon type",
-          "Skill Cost +11"
-        ]
-      },
-      "Weapon Attack Limit +1": {
-        "GCP Cost": 10000,
-        "Requirement": "PWR★100"
-      },
-      "Weapon Attack Limit +2": {
-        "GCP Cost": 10000,
-        "Requirement": [
-          "PWR★200",
-          "Weapon Attack Limit +1"
-        ]
-      },
-      "Weapon Attack Limit +3": {
-        "GCP Cost": 10000,
-        "Requirement": [
-          "PWR★300",
-          "Weapon Attack Limit +2"
-        ]
-      },
-      "Weapon Attack Limit +4": {
-        "GCP Cost": 10000,
-        "Requirement": [
-          "PWR★400",
-          "Weapon Attack Limit +3"
-        ]
-      },
-      "Weapon Attack Limit +5": {
-        "GCP Cost": 10000,
-        "Requirement": [
-          "PWR★500",
-          "Weapon Attack Limit +4"
-        ]
-      },
-      "Weapon Attack Limit +6": {
-        "GCP Cost": 10000,
-        "Requirement": [
-          "PWR★600",
-          "Weapon Attack Limit +5"
-        ]
-      },
-      "Weapon Attack Limit +7": {
-        "GCP Cost": 10000,
-        "Requirement": [
-          "PWR★700",
-          "Weapon Attack Limit +6"
-        ]
-      },
-      "Weapon Attack Limit +8": {
-        "GCP Cost": 10000,
-        "Requirement": [
-          "PWR★800",
-          "Weapon Attack Limit +7"
-        ]
+      "Attack Limit": {
+        "Weapon Attack Limit +1": {
+          "GCP Cost": 10000,
+          "Requirement": [
+            "PWR★100"
+          ]
+        },
+        "Weapon Attack Limit +2": {
+          "GCP Cost": 10000,
+          "Requirement": [
+            "PWR★200",
+            "Weapon Attack Limit +1"
+          ]
+        },
+        "Weapon Attack Limit +3": {
+          "GCP Cost": 10000,
+          "Requirement": [
+            "PWR★300",
+            "Weapon Attack Limit +2"
+          ]
+        },
+        "Weapon Attack Limit +4": {
+          "GCP Cost": 10000,
+          "Requirement": [
+            "PWR★400",
+            "Weapon Attack Limit +3"
+          ]
+        },
+        "Weapon Attack Limit +5": {
+          "GCP Cost": 10000,
+          "Requirement": [
+            "PWR★500",
+            "Weapon Attack Limit +4"
+          ]
+        },
+        "Weapon Attack Limit +6": {
+          "GCP Cost": 10000,
+          "Requirement": [
+            "PWR★600",
+            "Weapon Attack Limit +5"
+          ]
+        },
+        "Weapon Attack Limit +7": {
+          "GCP Cost": 10000,
+          "Requirement": [
+            "PWR★700",
+            "Weapon Attack Limit +6"
+          ]
+        },
+        "Weapon Attack Limit +8": {
+          "GCP Cost": 10000,
+          "Requirement": [
+            "PWR★800",
+            "Weapon Attack Limit +7"
+          ]
+        }
       }
     },
     "Items": {
