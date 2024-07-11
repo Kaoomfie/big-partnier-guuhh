@@ -25,16 +25,86 @@ fetch("https://kaoomfie.github.io/big-partnier-guuhh/pardner.json")
     .then(() => initialRender(data));
 
 function initialRender(data) {
-    // Personal yoinkage
-    console.log(data);
+    // // Personal yoinkage
+    // console.log(data);
 
 
     // Skills
-
+    const skillKeys = Object.keys(data["Skills"]);
+    const skillList = document.querySelector(".equip-skills");
+    const skillTemplate = skillList.children[0];
+    skillKeys.forEach((element) => {
+        if (skillKeys.indexOf(element) != 0) {
+            const newSkill = skillTemplate.cloneNode(true);
+            newSkill.children[0].innerHTML = element;
+            newSkill.children[1].innerHTML = data["Skills"][element]["GCP Cost"];
+            newSkill.children[2].innerHTML = data["Skills"][element]["Equip Cost"];
+            // Rank requirements
+            if (data["Skills"][element]["Required PR"] == "None") {
+                newSkill.children[3].innerHTML = `There is no rank requirement`;
+            } else if (data["Skills"][element]["Required GR"] == "None") {
+                newSkill.children[3].innerHTML = `You need PR${data["Skills"][element]["Required PR"]}`;
+            } else {
+                newSkill.children[3].innerHTML = `You need PR${data["Skills"][element]["Required PR"]} and GR${data["Skills"][element]["Required GR"]}`;
+            }
+            // Skill requirements
+            // Text
+            if (data["Skills"][element]["Required PR"] == "None") {
+                newSkill.children[4].innerHTML = "It requires"
+            } else {
+                newSkill.children[4].innerHTML = "Additionally, it requires"
+            }
+            // Skill list
+            newSkill.children[5].innerHTML = "";
+            if (data["Skills"][element]["Prerequisite Skills"] != "None") {
+                newSkill.children[4].append(":")
+                data["Skills"][element]["Prerequisite Skills"].forEach((req) => {
+                    const newReq = document.createElement("li");
+                    newReq.innerHTML = req;
+                    newSkill.children[5].append(newReq);
+                })
+            } else {
+                newSkill.children[4].append(" no additional skills.")
+            }
+            skillList.append(newSkill);
+        } else {
+            skillTemplate.children[0].innerHTML = element;
+            skillTemplate.children[1].innerHTML = data["Skills"][element]["GCP Cost"];
+            skillTemplate.children[2].innerHTML = data["Skills"][element]["Equip Cost"];
+            // Rank requirements
+            if (data["Skills"][element]["Required PR"] == "None") {
+                skillTemplate.children[3].innerHTML = `There is no rank requirement`;
+            } else if (data["Skills"][element]["Required GR"] == "None") {
+                skillTemplate.children[3].innerHTML = `You need PR${data["Skills"][element]["Required PR"]}`;
+            } else {
+                skillTemplate.children[3].innerHTML = `You need PR${data["Skills"][element]["Required PR"]} and GR${data["Skills"][element]["Required GR"]}`;
+            }
+            // Skill requirements
+            // Text
+            if (data["Skills"][element]["Required PR"] == "None") {
+                skillTemplate.children[4].innerHTML = "It requires"
+            } else {
+                skillTemplate.children[4].innerHTML = "Additionally, it requires"
+            }
+            // Skill list
+            if (data["Skills"][element]["Prerequisite Skills"] != "None") {
+                skillTemplate.children[4].append(":")
+                data["Skills"][element]["Prerequisite Skills"].forEach((req) => {
+                    const newReq = document.createElement("li");
+                    newReq.innerHTML = req;
+                    skillTemplate.children[5].append(newReq);
+                })
+            } else {
+                skillTemplate.children[4].append(" no additional skills.")
+            }
+        }
+        // Push the GCP costs to the bigFckuckingArray
+        bigFckuckingArray.push(data["Skills"][element]["GCP Cost"]);
+    })
 
 
     // Auto skills
-    const autoSkillKeys = [Object.keys(data["Auto Skills"]["Skill Slots"]), Object.keys(data["Auto Skills"]["Skill Cost"]), Object.keys(data["Auto Skills"]["Attack Limit"])]
+    const autoSkillKeys = [Object.keys(data["Auto Skills"]["Skill Slots"]), Object.keys(data["Auto Skills"]["Skill Cost"]), Object.keys(data["Auto Skills"]["Attack Limit"])];
     const slotList = document.querySelector(".auto-ssu");
     const costList = document.querySelector(".auto-cost");
     const rawCapList = document.querySelector(".auto-raw-cap");

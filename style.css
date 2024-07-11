@@ -35,3 +35,7 @@ body {
     transition: max-height 0.2s ease-out;
     margin-bottom: 20px;
 }
+
+.content > ul > li {
+    margin-bottom: 10px;
+}
